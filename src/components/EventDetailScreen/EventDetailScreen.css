@@ -1,0 +1,28 @@
+.eds_Container {
+  padding: 60px;
+}
+.eds_div1 {
+  margin-top: 20px;
+}
+.eds_Container .eds_back_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-weight: 600;
+  cursor: pointer;
+}
+.eds_Container .eds_p1 {
+  margin-top: 40px;
+}
+.eds_Container .eds_div2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+@media (max-width: 400px){
+  .eds_Container {
+    padding: 40px;
+  }
+}

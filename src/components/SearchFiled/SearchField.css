@@ -1,0 +1,31 @@
+.sf_container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(228, 204, 204, 0.8);
+  border-radius: 5px;
+  width: 60%;
+}
+.sf_container .sf_input {
+  width: 100%;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: none;
+  padding: 10px 0px;
+}
+.sf_container .sf_input::placeholder {
+  color: #a0a0a0;
+}
+
+.sf_container .sf_icon {
+  color: #a0a0a0;
+}
+
+@media (max-width: 786px){
+  .sf_container {
+    width: 100%;
+  }
+}

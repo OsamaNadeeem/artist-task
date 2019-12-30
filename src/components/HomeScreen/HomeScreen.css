@@ -1,0 +1,17 @@
+.h_Container {
+  padding: 60px;
+}
+.h_Container .h_p1 {
+  margin-top: 40px;
+}
+.h_Container .h_div1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+@media (max-width: 400px){
+  .h_Container {
+    padding: 40px;
+  }
+}
